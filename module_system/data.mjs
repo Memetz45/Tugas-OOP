@@ -1,5 +1,4 @@
-import { Table } from "./Table.js";
-
+import Table from "./table.mjs";
 const table = new Table({
     columns: ["Nama", "Email"],
     data: [
@@ -9,4 +8,6 @@ const table = new Table({
     ]
 });
 
+// const app = document.getElementById("app");
+// table.render(app);
 export default table;

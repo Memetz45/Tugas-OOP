@@ -1,4 +1,4 @@
-export class Table {
+class Table {
     constructor(init) {
         this.init = init;
     }
@@ -38,3 +38,5 @@ export class Table {
         element.innerHTML = table;
     }
 }
+
+export default Table;

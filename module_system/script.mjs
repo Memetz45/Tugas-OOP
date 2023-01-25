@@ -1,4 +1,4 @@
-import { table } from "./module_system/data";
+import table from "./data.mjs";
 
 const app = document.getElementById("app");
 table.render(app);
